@@ -805,7 +805,7 @@ if (typeof ignoreServer === 'undefined')
 
 const defaultAssetPath = '/assets';
 const defaultRoutes = {
-    'testObjectsTree': defaultAssetPath + '/var/objectsTree-example.json',
+    'testObjectsTree': defaultAssetPath + './var/objectsTree-example.json',
     'getGroup': '/struct',
     'renameGroup': '/struct',
     'removeGroup': '/struct',
